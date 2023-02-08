@@ -1,0 +1,96 @@
+.Register{
+    border: 1px solid;
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    width: 65rem;
+}
+.userBatch{
+    /* display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5px;
+}
+.userDetail{
+    /* display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5px;
+
+
+}
+.contact{
+    /* display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5px;
+
+
+}
+.address{
+    /* display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5px;
+
+
+}
+.passwords{
+    /* display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem; */
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5px;
+
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+
+
+}
+
+.row{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem 0rem;
+}
+
+.col {
+    width: 100%;
+    padding: 0rem 1rem;
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    flex-direction: column;
+    align-self: center;
+    padding: 1rem;
+}

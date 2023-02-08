@@ -1,3 +1,35 @@
+/* .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: orange!important;
+} */
+
+.cstmBtn {
+  background-color: var(--shubham)!important;
+}
+
+#menu- div:nth-child(3) {
+  max-height: 70px!important;
+}
+
+.ff fieldset {
+  border: none;
+}
+
+.ff svg {
+  display: none;
+}
+
+.cstmBtn:hover {
+  background-color: greenyellow!important;
+}
+
+.temp fieldset {
+border-color: orange!important;
+}
+
+.temp label {
+  color: orange!important;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +37,19 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.stand fieldset{
+  border-color: orange!important;
+
+}
+.stand label{
+  color: orange!important;
+
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
+  border-color: orange!important;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
